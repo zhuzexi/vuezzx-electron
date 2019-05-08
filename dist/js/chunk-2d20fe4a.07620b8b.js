@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d20fe4a"],{b622:function(n,e,x){"use strict";x.r(e);var l=function(){var n=this,e=n.$createElement,x=n._self._c||e;return x("div",[x("p",[n._v("email: xxxxxxxxxxxxxxxxxxxx")]),x("button",{on:{click:n.handleClick}},[n._v("点一下")])])},t=[],i={methods:{handleClick:function(){this.$bus.$emit("on-click","hellow")}},mounted:function(){}},c=i,o=x("2877"),u=Object(o["a"])(c,l,t,!1,null,null,null);u.options.__file="email.vue";e["default"]=u.exports}}]);
+//# sourceMappingURL=chunk-2d20fe4a.07620b8b.js.map
