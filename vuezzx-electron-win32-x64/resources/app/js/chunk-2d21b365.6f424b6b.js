@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21b365"],{bf8c:function(n,e,t){"use strict";t.r(e);var r=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v("\n  这是一个404页面\n")])},u=[],c=t("2877"),l={},o=Object(c["a"])(l,r,u,!1,null,null,null);o.options.__file="error_404.vue";e["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-2d21b365.6f424b6b.js.map

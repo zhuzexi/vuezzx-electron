@@ -5,10 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "electron_dev": "npm run build && electron build/electron.js",
+    "electron_build": "electron-packager ./dist/ vuezzx-electron --platform=win32 --arch=x64 --icon=./public/favicon.ico --overwrite"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "clonedeep": "^2.0.0",
+    "iview": "^3.4.1",
+    "js-cookie": "^2.2.0",
     "vue": "^2.5.17",
+    "vue-baidu-map": "^0.21.18",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
@@ -18,8 +25,11 @@
     "@vue/cli-service": "^3.2.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "mockjs": "^1.0.1-beta3",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.17"

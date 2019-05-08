@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2077a9"],{a169:function(n,e,t){"use strict";t.r(e);var l=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v("\n  这是一个子组件\n")])},u=[],c=t("2877"),i={},a=Object(c["a"])(i,l,u,!1,null,null,null);a.options.__file="child.vue";e["default"]=a.exports}}]);
+//# sourceMappingURL=chunk-2d2077a9.e1416aa9.js.map
